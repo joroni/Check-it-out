@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg2" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" sodipodi:docname="spinner-on-003.svg" inkscape:version="0.48.4 r9939"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px"
+	 viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+<defs>
+	
+	
+		<inkscape:path-effect  fuse_tolerance="0" prop_units="false" tang_offset="0" normal_offset="0" spacing="0" scale_y_rel="false" prop_scale="1" copytype="single_stretched" pattern="M 0,0 0,10 10,5 z" is_visible="true" id="path-effect4937" effect="skeletal" vertical_pattern="false">
+		</inkscape:path-effect>
+	<inkscape:path-effect  is_visible="true" id="path-effect4935" effect="spiro"></inkscape:path-effect>
+</defs>
+<sodipodi:namedview  showguides="true" showgrid="true" inkscape:cy="21.094893" inkscape:cx="3.321495" inkscape:zoom="16" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" id="base" inkscape:guide-bbox="true" inkscape:snap-to-guides="true" inkscape:window-maximized="1" inkscape:window-y="-8" inkscape:window-x="-8" inkscape:window-height="706" inkscape:window-width="1366" inkscape:current-layer="layer2" inkscape:document-units="px" inkscape:pageshadow="2" inkscape:pageopacity="0.0">
+	<inkscape:grid  type="xygrid" enabled="true" visible="true" empspacing="5" id="grid4941" snapvisiblegridlinesonly="true">
+		</inkscape:grid>
+	<sodipodi:guide  position="250,950" orientation="1,0" id="guide6249"></sodipodi:guide>
+	<sodipodi:guide  position="345,925" orientation="1,0" id="guide6251"></sodipodi:guide>
+	<sodipodi:guide  position="273,981" orientation="0,1" id="guide6253"></sodipodi:guide>
+	<sodipodi:guide  position="310,885" orientation="0,1" id="guide6255"></sodipodi:guide>
+</sodipodi:namedview>
+<g id="g7153" transform="translate(0,-1020.3622)" inkscape:label="Cercle mod√®le" inkscape:groupmode="layer" display="none">
+	
+		<path id="path7155" sodipodi:type="arc" sodipodi:cx="472.5" sodipodi:cy="119.86218" sodipodi:rx="47.5" sodipodi:ry="47.5" display="inline" fill="none" stroke="#0078FF" stroke-width="3.6554" stroke-miterlimit="4.2" d="
+		M122.072,1019.237c0,6.914-5.604,12.518-12.518,12.518s-12.519-5.604-12.519-12.518c0-6.914,5.604-12.519,12.519-12.519
+		S122.072,1012.323,122.072,1019.237z"/>
+	
+		<path id="path6247" sodipodi:type="arc" sodipodi:cx="472.5" sodipodi:cy="119.86218" sodipodi:rx="47.5" sodipodi:ry="47.5" display="inline" fill="#FFFFFF" fill-opacity="0" stroke="#009696" stroke-width="3.6554" stroke-miterlimit="4.2" stroke-opacity="0.5882" d="
+		M26.592,1036.362c0,5.85-4.742,10.592-10.592,10.592c-5.85,0-10.592-4.742-10.592-10.592c0-5.85,4.742-10.592,10.592-10.592
+		C21.85,1025.77,26.592,1030.512,26.592,1036.362z"/>
+</g>
+<g id="layer2" inkscape:label="Spinner" inkscape:groupmode="layer">
+	<g id="g7073-7" transform="matrix(-1,0,0,-1,31.898581,30.53936)">
+	</g>
+	
+		<path id="path6247-5-1" sodipodi:start="0" sodipodi:end="2.3789514" sodipodi:open="true" sodipodi:type="arc" sodipodi:cx="472.5" sodipodi:cy="119.86218" sodipodi:rx="47.5" sodipodi:ry="47.5" fill="none" stroke="#F73838" stroke-miterlimit="4.2" d="
+		M5.654,16.023c0-5.711,4.63-10.34,10.34-10.34c2.824,0,5.525,1.155,7.476,3.197"/>
+	
+		<path id="path7051-7" sodipodi:sides="3" sodipodi:r1="5" sodipodi:r2="2.5" sodipodi:arg1="0" sodipodi:arg2="1.0471976" sodipodi:type="star" sodipodi:cx="45" sodipodi:cy="-18" inkscape:flatsided="false" inkscape:rounded="0" inkscape:randomized="0" inkscape:transform-center-y="-0.51708133" inkscape:transform-center-x="-0.57536872" opacity="0.96" fill="#FF5555" stroke="#F73838" stroke-miterlimit="4.2" enable-background="new    " d="
+		M21.445,9.921l1.752-1.227l1.752-1.227l0.188,2.131l0.186,2.131l-1.938-0.904L21.445,9.921z"/>
+	
+		<path id="path6247-5-1-7" sodipodi:start="0" sodipodi:end="2.3789514" sodipodi:open="true" sodipodi:type="arc" sodipodi:cx="472.5" sodipodi:cy="119.86218" sodipodi:rx="47.5" sodipodi:ry="47.5" fill="none" stroke="#F73838" stroke-miterlimit="4.2" d="
+		M26.346,15.977c0,5.71-4.63,10.34-10.34,10.34c-2.824,0-5.525-1.155-7.476-3.196"/>
+	
+		<path id="path7051-7-4" sodipodi:sides="3" sodipodi:r1="5" sodipodi:r2="2.5" sodipodi:arg1="0" sodipodi:arg2="1.0471976" sodipodi:type="star" sodipodi:cx="45" sodipodi:cy="-18" inkscape:flatsided="false" inkscape:rounded="0" inkscape:randomized="0" inkscape:transform-center-y="-0.51708133" inkscape:transform-center-x="-0.57536872" fill="#FF5555" stroke="#F73838" stroke-miterlimit="4.2" d="
+		M10.555,22.078l-1.752,1.228L7.05,24.533l-0.187-2.132L6.677,20.27l1.939,0.904L10.555,22.078z"/>
+</g>
+</svg>

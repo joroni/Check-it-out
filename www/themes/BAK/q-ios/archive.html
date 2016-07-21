@@ -1,0 +1,78 @@
+<!--
+ * Content is enclosed in <div id="app-content-wrapper"><div id="app-screen"></div></div>
+ * Subhead: is added by add-custom-data.php in the theme's php folder / It expects that the post has a subhead custom field
+ * Handler for image loading error: displayDefaultImage() added in functions.js as a template's parameter
+-->
+
+<div id="content" class="content list-template">
+
+	<% if(posts.length){ %>
+
+		<% _.each( posts, function( post ){ %>
+
+			<div class="content-item">
+				<a href="<%= TemplateTags.getPostLink(post.id) %>">
+
+                    <% if ( post.subhead ) { %>
+
+                        <div class="subhead"><%= post.subhead %></div>
+
+                    <% } %>
+
+					<div class="postTitle"><h2><span><%= post.title %></span></h2></div>
+                        
+                    <% if(  post.thumbnail && post.thumbnail.src && post.thumbnail.src.length ){ %>
+
+                       <div class="row"> <img class="content-thumbnail" src="<%= post.thumbnail.src %>" onerror="displayDefaultImage(this);" /></div>
+
+                    <% } %>	
+                    
+                        
+				</a>
+                
+                                         
+                    <div id="single-content" class="single-content">
+                
+                            <%= post.content %>
+                
+                    </div>
+			</div>
+
+		<% }); %>
+
+        <% if( TemplateTags.displayGetMoreLink() ){ %>
+			<div class="get-more-button-wrapper">
+                <button type="button" id="get-more-button" class="get-more-button">More (<%= TemplateTags.getMoreLinkNbLeft() %>)</button>
+            
+            </div>
+		<% } %>
+            
+	<% }else{ %>
+		<div class='content-message'>No post found</div>
+	<% } %>
+        
+</div>
+
+
+
+
+
+<!--<h1>Posts archive for <%= list_title %> (Total <%= total %>)</h1>
+<% if( posts.length ){ %>
+      <ul>
+            <% _.each( posts, function( post ){ %>
+                  <% var nb_comments = post.nb_comments %>
+                  <li>
+                  
+                        <h2>
+                              <a href="<%= TemplateTags.getPostLink(post.id) %>"><%= post.title %></a>
+                              &nbsp;<small><%= TemplateTags.formatDate(post.date,'d/m/Y') %></small>
+                        </h2>
+                        <p><%= post.excerpt %></p>
+                        <span><%= nb_comments %> comment<% nb_comments > 1 ? print('s') : '' %></span>
+                  </li>
+            <% }); %>
+      </ul>
+<% }else{ %>
+      <p>No post found!</p>
+<% } %>-->

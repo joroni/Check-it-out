@@ -1,0 +1,646 @@
+/**************** CUSTOM ****************/
+.app-header {
+   /* background-color: #f73838 !important;*/
+    background-color: #000 !important;
+	border-bottom: 1px solid #000 !important;
+}
+
+.app-message-bar {
+	background-color:#0FC !important;
+    color:#000 !important;
+}
+
+.menu-button {
+    background-image: url("../img/menu-red-icon.svg") !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 44px;
+    position: absolute;
+    width: 43px;
+}
+
+
+.back-button {
+    background-image: url("../img/back-red-icon.svg") !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 44px;
+    position: absolute;
+    width: 43px;
+}
+
+.refresh-off {
+    background-image: url("../img/refresh-red-icon.svg") !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 44px;
+    position: absolute;
+    right: 0;
+    width: 40px;
+}
+
+
+
+.app-header h1 {
+    font-family: "Roboto",sans-serif !important;
+	color: #f73838 !important;
+    font-size: 18px;
+    font-weight: normal;
+    height: 44px;
+    line-height: 44px;
+    margin: 0;
+    overflow: hidden;
+    padding: 1px 50px 0;
+    text-align: center;
+}
+
+
+.single-template .post-title h1,
+.single-template h1, .single-template h2, .single-template h3, .single-template h4, .single-template h5, .single-template h6,
+.list-template h2 {
+  
+    font-family: "Roboto",sans-serif !important;
+
+    font-weight: 400;
+    line-height: 1.1;
+    text-transform: uppercase !important;
+	color:#f73838;
+}
+
+
+.wp-video, .wp-video-shortcode {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+
+.post-meta, .post-meta a, .post-meta span {
+    color: #aaa;
+    text-transform: uppercase;
+	font-family:"Open Sans", sans-serif !important;
+}
+
+.list-template .content-item a {
+    border-bottom: 0px solid #e2e2e2 !important;
+    color: #4c4c4c;
+    display: block;
+    margin: 0;
+    padding: 0px 20px 20px !important;
+    text-decoration: none;
+}
+
+.list-template h2 {
+    color: #333;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 21px;
+    line-height: 24px;
+}
+
+.post-title h1 {
+	 color: #323232;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 21px;
+    line-height: 24px;
+	text-transform: capitalize;
+}
+
+
+div.app-screen div#content.content.single-template div.post-title h1{
+	font-family: "Roboto", sans-serif;
+}
+
+
+.content {
+    background-color: #fff;
+    height: 100%;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+	 overflow-x: hidden !important;
+    overflow-y: auto !important;
+    padding: 10px;
+    z-index: 1;
+}
+
+img.post-thumbnail, img.content-thumbnail {
+    border: 0 none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.single-content, .single-content p  {
+	color:#434343;
+	font-style:"HelveticaNeue", sans-serif;
+}
+
+
+@font-face {
+	font-family : "PT Serif Regular";
+	src : url('../fonts/PT-Serif-Regular.ttf');
+}
+
+@font-face {
+	font-family : "Roboto";
+	src : url('../fonts/Roboto-Condensed.ttf');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('../fonts/Oswald-Regular.ttf'), local('../fonts/Oswald-Regular.ttf'), url(../fonts/Qw6_9HvXRQGg5mMbFR3Phn-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin-ext 
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald-Regular'), local('Oswald-Regular'), url(../fonts/Qw6_9HvXRQGg5mMbFR3Phn-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}*/
+/* latin 
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(../fonts/_P8jt3Y65hJ9c4AzRE0V1OvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}*/
+
+
+.row {
+    margin-left: -30px !important;
+    margin-right: -30px !important;
+}
+
+
+
+#app-layout {
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0 !important;
+}
+
+
+img.post-thumbnail, img.content-thumbnail {
+    border: 0 none;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+
+
+div.postTitle {
+    background: #f73838 none repeat scroll 0 0;
+    float: left;
+    left: -20px;
+    padding: 5px 10px 0;
+    position: relative !important;
+    top: 20px;
+}
+
+
+div.postTitle h2 {
+	color:#fff !important;
+}
+
+
+
+
+
+
+.top-block, .main-navigation li, .site-title, .site-title a, .site-description, .site-description a, .slide-title, .bn-title, .comment-reply-title, .comments-title, .comment-form .form-submit input, .read-more, .slicknav_nav li a, .widget-title, .page-header .page-title, .single .entry-header .entry-title, h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a {
+    font-family: "Oswald",sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+/**************** CUSTOM ****************/
+
+/*
+ * common.css : general rules (applied to all templates)
+ * post-list.css : archive.html specific rules
+ * post-detail.css : single.html and page.html specific rules
+ */
+
+
+
+/*
+ * Fonts
+ */
+
+/*@font-face {
+	font-family : "PT Serif Regular";
+	src : url('../fonts/PT-Serif-Regular.ttf');
+	
+}*/
+
+
+
+/*
+ * General screen rules
+ */
+
+* {box-sizing: border-box;}
+
+html,body {
+	height: 100%;
+	margin: 0px;
+}
+
+body {
+	background-color:#182C36;
+	text-rendering: optimizelegibility;     /* Enables kerning and optional ligatures */
+	-webkit-text-size-adjust: 100%;         /* Blocks text auto-scaling (eg. when switching from portrait to landscape) */
+	-webkit-font-smoothing: antialiased;    /* Enhances font aliasing */
+/*	font-family:"HelveticaNeue", sans-serif;
+	font-family: 'Oswald', sans-serif !important;*/
+	font-family:"PT Serif Regular",  sans-serif !important;
+	font-size:12px !important;
+}
+
+a {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* Disables touch highlight on hyperlinks */
+}
+
+/* Finger taps a button */
+.button-tap-on {
+	opacity:0.1;
+	-webkit-transition:opacity 0.1s linear;
+}
+
+/* Finger releases a button */
+.button-tap-off {
+	opacity:1;
+	-webkit-transition:opacity 0.1s linear;
+}
+
+
+
+/*
+ * App structure
+ */
+
+/* Encloses all app's elements (auto-added) */
+#app-layout {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+}
+
+/* Encloses app's menu (auto-added) */
+#app-menu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 85%;
+    z-index: 0; /* Positionned under the app's canvas / z-index relative to #app-layout */
+    overflow-y: scroll;
+    -webkit-overflow-scrolling:touch; /* Enables scrolling bounce effect when reaching top or bottom */
+}
+
+/* Encloses nav bar, content and toolbar  */
+#app-canvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: 10; /* Positionned above the app's menu / z-index relative to #app-layout */
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+/* Encloses content (auto-added) */
+#app-content-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 5; /* z-index relative to #app-canvas */
+}
+
+/* Encloses content (auto-added) */
+.app-screen {
+    overflow-y: scroll;
+    position: absolute;
+    top: 44px;
+    bottom: 0px;
+    left: 0px;
+	width: 100%;
+    background-color: #fff;
+    -webkit-overflow-scrolling:touch; /* Enables scrolling bounce effect when reaching top or bottom */
+}
+
+/* When in slideup panel, no need to reserve place for toolbar */
+.panel-content .app-screen {
+    top: 0px;
+}
+
+/* Nav Bar */
+#app-header {
+	position: absolute;
+	top: 0px;
+    left: 0px;
+	width: 100%;
+	height: 44px;
+	text-align: center;
+    overflow: hidden;
+    z-index: 10; /* z-index relative to #app-canvas */
+}
+
+
+
+/*
+ * Menu button
+ */
+
+.menu-button {
+	position: absolute;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image:url('../img/menu-icon.svg');	
+	width:43px;
+	height:44px;
+}
+
+
+
+/*
+ * Back button
+ */
+
+.back-button {
+	position:absolute;
+	float: left;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-image:url('../img/back-icon.svg');	
+	width:43px;
+	height:44px;
+}
+
+
+
+/*
+ * Refresh button
+ */
+
+.refresh-off {
+	position: absolute;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-position: center;	
+	width:40px;
+	height:44px;
+	background-image:url('../img/refresh-off-icon.svg');
+}
+
+/* iOS Animated on state for refresh button (spinning) */
+.refresh-on {
+	position: absolute;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-position: center;	
+	-webkit-animation: refresh-effect 1s infinite;
+	width:40px;
+	height:44px;
+	background-image:url('../img/refresh-on-icon.svg');
+}
+
+/* Spinning effect for refresh button */
+@-webkit-keyframes refresh-effect {
+	100%	{-webkit-transform: rotate(360deg);}
+}
+
+
+
+/*
+ * App's nav bar
+ */
+
+.app-header {
+	background-color: #F8F8F8;
+	border-bottom: 1px #B2B2B2 solid;
+}
+
+.app-header h1 {
+	margin: 0px;
+	padding: 1px 50px 0px 50px;
+	text-align: center;
+	line-height: 44px;
+	overflow: hidden;
+	height: 44px;
+	font-weight: normal;
+	-webkit-user-select: none; /* Block selection with a long touch */
+	font-size: 18px;
+	font-family:HelveticaNeue-Medium,sans-serif;
+}
+
+
+
+/*
+ * Message bar
+ */
+
+.app-message-bar {
+	position: absolute;
+	top: 44px;
+	left: 0px;
+	width: 100%;
+	height: 24px;
+	font-size: 14px;
+    line-height: 24px;
+	text-align: left;
+	padding: 0px 10px 0px 10px;
+	opacity: 0;
+    overflow: hidden;
+    z-index: 20; /* Relative to .app-canvas */
+	background-color:#333;
+	color:#f9f9f9;
+    font-family: HelveticaNeue-Medium, sans-serif;
+}
+
+/* Show message bar transition */
+.message-on {
+	opacity: 1;
+	-webkit-transition: opacity 0.2s linear;
+}
+
+/* Hide message bar transition */
+.message-off {
+	opacity: 0;
+	-webkit-transition: opacity 0.2s linear;
+}
+
+
+
+/*
+ * Content areas (post list|post detail)
+ */
+
+.content {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 1; /* z-index relative to .app-screen */
+    background-color: #fff;
+    -webkit-overflow-scrolling:touch; /* Enables scrolling bounce effect when reaching top or bottom */
+}
+
+
+
+/*
+ * Off-canvas menu
+ */
+
+/* Fixes the menu scrollbar bug */
+.off-canvas-menu {
+	overflow-y: auto;
+}
+
+.menu-items {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.menu-items li {
+	padding: 0px 3px 0px 0px;
+}
+
+.menu-items li a {
+	padding: 8px 0px 8px 10px;
+	font-size: 18px;
+	color: #fff;
+	line-height: 18px;
+	white-space: nowrap;
+	border-bottom: 1px #0F1B21 solid;
+	display: block;
+	text-decoration: none;
+	-webkit-user-select: none; /* Block user selection */
+	-webkit-touch-callout: none; /* Work on iOS to block hyperlink menu */
+}
+
+.menu-items li.menu-active-item a {
+	padding: 8px 0px 8px 10px;
+	font-size: 18px;
+	color: #233F4D;
+	background-color: #fff;
+	line-height: 18px;
+	white-space: nowrap;
+	display: block;
+	text-decoration: none;
+	-webkit-user-select: none; /* Block user selection */
+	-webkit-touch-callout: none; /* Work on iOS to block hyperlink menu */
+}
+
+
+
+/*
+ * Spinner structure and animation
+ */
+
+div.spinner {
+    position: relative;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+div.spinner div {
+    width: 6%;
+    height: 16%;
+    background-color: #fff;
+    position: absolute;
+    left: 49%;
+    top: 43%;
+    opacity: 0;
+    -webkit-border-radius: 50px;
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    -webkit-animation: fade 1s linear infinite;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 1;}
+  to {opacity: 0.25;}
+}
+
+div.spinner div.bar1 {
+  -webkit-transform:rotate(0deg) translate(0, -130%);
+  -webkit-animation-delay: 0s;
+}    
+
+div.spinner div.bar2 {
+  -webkit-transform:rotate(30deg) translate(0, -130%); 
+  -webkit-animation-delay: -0.9167s;
+}
+
+div.spinner div.bar3 {
+  -webkit-transform:rotate(60deg) translate(0, -130%); 
+  -webkit-animation-delay: -0.833s;
+}
+
+div.spinner div.bar4 {
+  -webkit-transform:rotate(90deg) translate(0, -130%); 
+  -webkit-animation-delay: -0.7497s;
+}
+
+div.spinner div.bar5 {
+  -webkit-transform:rotate(120deg) translate(0, -130%); 
+  -webkit-animation-delay: -0.667s;
+}
+
+div.spinner div.bar6 {
+  -webkit-transform:rotate(150deg) translate(0, -130%); 
+  -webkit-animation-delay: -0.5837s;
+}
+
+div.spinner div.bar7 {
+  -webkit-transform:rotate(180deg) translate(0, -130%); 
+  -webkit-animation-delay: -0.5s;
+}
+
+div.spinner div.bar8 {
+  -webkit-transform:rotate(210deg) translate(0, -130%); 
+  -webkit-animation-delay: -0.4167s;
+}
+
+div.spinner div.bar9 {
+  -webkit-transform:rotate(240deg) translate(0, -130%); 
+  -webkit-animation-delay: -0.333s;
+}
+
+div.spinner div.bar10 {
+  -webkit-transform:rotate(270deg) translate(0, -130%); 
+  -webkit-animation-delay: -0.2497s;
+}
+
+div.spinner div.bar11 {
+  -webkit-transform:rotate(300deg) translate(0, -130%); 
+  -webkit-animation-delay: -0.167s;
+}
+
+div.spinner div.bar12 {
+  -webkit-transform:rotate(330deg) translate(0, -130%); 
+  -webkit-animation-delay: -0.0833s;
+}

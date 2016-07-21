@@ -1,0 +1,180 @@
+nav.navbar.navbar-default.navbar-fixed-top div#navbar-collapse.navbar-collapse.collapse.in div#user-info {
+	font-family: "roboto",sans-serif;
+    margin: 0 auto;
+    text-shadow: -1px -1px 0 rgba(255, 255, 255, 0) !important;
+    text-transform: uppercase;
+	color:#777 !important;
+	
+}
+
+
+.top-block, .main-navigation li, .site-title, .site-title a, .site-description, .site-description a, .slide-title, .bn-title, .comment-reply-title, .comments-title, .comment-form .form-submit input, .read-more, .slicknav_nav li a, .widget-title, .page-header .page-title, .single .entry-header .entry-title, h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a {
+    font-family: "roboto",sans-serif !important;
+    font-weight: 400;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+ul.user-task li{
+	list-style:none;
+}
+.btn {
+	text-transform:uppercase!important;
+	font-family:'Roboto', sans-serif !important;
+}
+
+div#post-comments-list ol.breadcrumb {
+	width:100%;
+}
+
+
+.breadcrumb {
+    color: #ddd !important;
+}
+
+
+.media-heading {
+    font-size: 12px !important;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+
+#post-comments-list .media-body p {
+    color: #f73838 !important;
+    margin-top: 1em;
+}
+
+#app-title a {
+    color: #f73838 !important;
+}
+#refresh-button, #go-back {
+    color: #f73838 !important;
+    font-size: 20px !important;
+}
+
+.navbar-default {
+    background-image: linear-gradient(to bottom, #000 0px, #000 100%) !important;
+    background-repeat: repeat-x;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 5px rgba(0, 0, 0, 0.075);
+	border-color:#000 !important;
+}
+.navbar-default .navbar-brand {
+    color: #f73838;
+}
+.navbar-brand, .navbar-nav > li > a {
+    font-family: "roboto",sans-serif;
+    margin: 0 auto;
+    text-shadow: -1px -1px 0 rgba(255, 255, 255, 0) !important;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f73838 !important;
+}
+
+
+h2.media-title a, .media-title a  {
+    background: #f73838 none repeat scroll 0 0;
+    color: #fff;
+    font-family: "Roboto",sans-serif !important;
+    padding: 15px;
+    text-transform: uppercase !important;
+	margin-left:0px;
+}
+
+body {
+    background: #ffffff none repeat scroll 0 0;
+    color: #3d3d3d;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    overflow-x: hidden;
+}
+
+p {
+    color: #434343;
+    font-family: georgia;
+    margin: 0 0 10px;
+}
+
+
+.entry-meta {
+    color: #aaa;
+    font-family: "roboto",sans-serif;
+    text-transform: uppercase;
+}
+
+nav.navbar {
+	padding-top:15px;
+	
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+
+    border-color: none !important;
+	background-color:#fff !important;
+}
+
+.app-screen {
+	margin-left:0;
+	margin-right:0;
+	padding-bottom:15px;
+}
+
+.media-title {
+    font-size: 20px;
+    margin-left: -15px;
+    position: relative;
+    top: 35px;
+}
+
+.wp-video {
+	width: 100% !important;
+}
+
+video {
+	min-width:100% !important;
+	max-width:100% !important;
+}
+
+img.media-object {
+	margin-bottom: 20px;
+}
+
+#feedback {
+    background: rgb(0, 222, 65) none repeat scroll 0 0 !important;
+    color: #fff !important;
+    font-size: 10px !important;
+    margin: 0 !important;
+    padding: 5px !important;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@font-face {
+	font-family : "PT Serif Regular";
+	src : url('../fonts/PT-Serif-Regular.ttf');
+}
+
+@font-face {
+	font-family : "Roboto";
+	src : url('../fonts/Roboto-Condensed.ttf');
+}
+
+#waiting {
+    background-color: #fff !important;
+    background-image: url("../img/ajax-loader.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index:1000;
+}
